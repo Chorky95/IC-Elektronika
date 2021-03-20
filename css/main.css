@@ -357,6 +357,10 @@
   .contact__info h2 {
     font-size: 1.2rem;
   }
+  .gallery .gallery-container .slide img {
+    width: 350px;
+    height: 300px;
+  }
   footer {
     padding-top: 6rem;
     position: relative;
@@ -446,6 +450,10 @@
   }
   .gallery {
     padding-bottom: 60rem;
+  }
+  .gallery .gallery-container .slide img {
+    width: 350px;
+    height: 300px;
   }
   .contact {
     top: 5rem;
@@ -577,8 +585,8 @@
 }
 
 .gallery .gallery-container .slide img {
-  width: 400px;
-  height: 350px;
+  width: 480px;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
   border: solid;
